@@ -76,18 +76,21 @@
       border-color: #1877f2;
     }
 
-    .login-form button {
+    .login-button button {
       padding: 12px;
-      background-color: #1877f2;
+      background-color: #000000;
       color: white;
       font-size: 16px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      transition-duration: 1s;
+      
     }
 
-    .login-form button:hover {
+    .login-button button:hover {
       background-color: #145dbf;
+      scale: 1.2;
     }
 
    
@@ -101,15 +104,13 @@
       <h4>Assignment rani namo pero gi tarung nako bahala nani!.</h4>
     </div>
     <div class="right-section">
-      <form class="login-form">
-        <input type="text" placeholder="Email or Phone Number" required>
-        <input type="password" placeholder="Password" required>
-       
-        <div>
-       <a href="https://animotx.github.io/prof/"> <button type="submit">Log In</button>
-       </a>
-        </div>
-      </form>
+      <section class="login-form">
+        <input type="text" placeholder="Email or Phone Number" required/>
+        <input type="password" placeholder="Password" required/>
+      </section>
+
+      <section class="login-button"> <center/> <a href="https://animotx.github.io/prof/"> <button class="button"> Log in</button>
+        <a/> </section>
     </div>
   </div>
 </body>
